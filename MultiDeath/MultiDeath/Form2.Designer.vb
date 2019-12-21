@@ -94,6 +94,7 @@ Partial Class Form2
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form2"
         Me.Text = "Windows Live Essentials 2012"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
